@@ -12,4 +12,4 @@ if p>=0:
         if int(p)%2 != 0:
             print("Odd Number!")
 else:
-    print(" Please Enter a valid Integer.")    
+    st.write(" Please Enter a valid Integer.")    
