@@ -8,8 +8,8 @@ p = box.number_input('Enter The Number',step=1)
 
 if p>=0:
         if int(p)%2 == 0:
-            print("Even number!")
+            st.write("Even number!")
         if int(p)%2 != 0:
-            print("Odd Number!")
+            st.write("Odd Number!")
 else:
     st.write(" Please Enter a valid Integer.")    
